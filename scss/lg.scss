@@ -1,0 +1,200 @@
+nav{
+    z-index: 5 !important;
+    height: 54px;
+    font-size: 13px !important;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0 24px !important;
+    a.logo{
+        height: 100%;
+        width: 137px;
+        padding: 10px 6px 16px 10px;
+        margin-top: 1px;
+        margin-right: 3px;
+        outline-offset: -2px;
+        >img{
+            width: 108px;
+            margin-top: -3px;
+        }
+    }
+    ul{
+        li.nav-item{
+            padding-right: 4px !important;
+            &:hover{
+                >a{
+                    text-decoration: underline;
+                    text-decoration-thickness:1.6px;
+                    text-underline-offset: 5px;
+                }
+            }
+        }
+        div.dropLink{
+            background-color: #f2f2f2;
+            font-size: 13px !important;
+            border-bottom-color:#000000 ;
+            box-sizing: border-box !important;
+            a{
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-thickness:0.8px;
+                    text-underline-offset: 5px;
+                }
+            }
+        }
+    }
+    div.right{
+        >form{
+            div.input-g{
+                input{
+                    width: 17px;
+                    height: 34px;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    font-size: 13px;
+                    padding: 12px 0px 12px 20px;
+                    -webkit-transition: width 0.4s ease-in-out;
+                    transition: width 0.4s ease-in-out;
+                    border: unset;
+                    cursor: pointer;
+                    &:focus{
+                        padding-left: 22px;
+                        width: 100%;
+                        cursor: text;
+                    }
+                }
+                label{
+                    left: 11px;
+                    cursor: pointer;
+                    >img{
+                        width: 16px;
+                        height: 18px;
+                        transform: rotateZ(90deg);
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                        text-decoration-thickness:1.6px;
+                        text-underline-offset: 5px;
+                    }
+                }
+            }
+        }
+        div.cart{
+            >a{
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-thickness:1.6px;
+                    text-underline-offset: 5px;
+                }
+                >img{
+                    width: 16px;
+                }
+            }
+        }
+        div.signin{
+            >a{
+                >img{
+                    width: 23px;
+                }
+            }
+        }
+        div.mdrop{
+            max-width: 1230px;
+            min-width: 900px;
+            background-color: #f2f2f2;
+            font-size: 13px !important;
+            border-bottom-color:#000000 ;
+            box-sizing: border-box !important;
+            left: unset !important;
+            right: -100px !important;
+            top: 150% !important;
+            >div.cont>div{
+                width: 195px;
+                a{
+                    &:hover{
+                        text-decoration: underline !important;
+                        text-decoration-thickness:1.6px !important;
+                        text-underline-offset: 5px !important;
+                    }
+                }
+            }
+            span{
+                cursor: default;
+            }
+            div.foot{
+                height: 38px;
+                background-color: #e6e6e6;
+                width: 100% !important;
+                a{
+                    color: #000000 !important;
+                    font-size: 13px !important;
+                }
+            }
+        }
+    }
+}
+main{
+    >div.wrapper{
+        >div.carousell{
+            height: 595px !important;
+            div.carousel , div.carousel-inner , div.carousel-item{
+                height: 595px !important;
+                >img{
+                    min-height: 474px !important;
+                    object-fit: cover !important;
+                    object-position: right !important;
+                }
+            }
+            div.carousel-inner{
+                overflow: visible !important;
+            }
+            div.carousel-caption{
+                bottom: 0 !important;
+                left: 50% !important;
+                transform: translateX(-50%);
+                line-height: 1.5 !important;
+                box-shadow: 0 .1875rem .4375rem 0 rgba(0,0,0,.13),0 .0625rem .125rem 0 rgba(0,0,0,.11) !important;
+                border-radius: unset !important;
+                background-color: #ffffff !important;
+                width: 90% !important;
+                padding: 48px !important;
+                max-height: 224px !important;
+                z-index: 4 !important;
+                >h1{
+                    font-weight: 600 !important;
+                    font-size: 24px !important;
+                }
+                >p{
+                    width: 100% !important;
+                }
+                >h2{
+                    font-weight: 600 !important;
+                    font-size: 24px !important;
+                }
+            }
+        }
+        >div.firstCards , div.businessCards{
+            padding: 0 2% !important;
+            div.card{
+                max-width: 100% !important;
+                min-width: 257px !important;
+                cursor: pointer !important;
+                h4{
+                    font-size: 21px !important;
+                }
+            }
+        }
+        >div.gamePass{
+            padding: 0 0.75rem !important;
+            height: 850px !important;
+            div.card2{
+                padding: 48px !important;
+                width: 98% !important;
+                bottom: -30%;
+                left: 50% !important;
+                transform: translateX(-50%) !important;
+                box-shadow: 0 .1875rem .4375rem 0 rgba(0,0,0,.13),0 .0625rem .125rem 0 rgba(0,0,0,.11) !important;
+            }
+        }
+    }
+}

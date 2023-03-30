@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "scss":"node-sass -w ./scss/main.scss -o ./css/ -r",
-    "scssM":"node-sass -w ./scss/main.scss -o ./css/ -r --output-style compressed"
+    "scssM":"node-sass -w ./scss/main.scss -o ./css/ -r --output-style compressed",
+    "scssSetting": "node-sass -w scss/setting.scss -o css/ -r --output-style compressed",
+    "xxl": "node-sass -w scss/xxl.scss -o css/ -r --output-style compressed",
+    "xl": "node-sass -w scss/xl.scss -o css/ -r --output-style compressed",
+    "lg": "node-sass -w scss/lg.scss -o css/ -r --output-style compressed",
+    "md": "node-sass -w scss/md.scss -o css/ -r --output-style compressed",
+    "sm": "node-sass -w scss/sm.scss -o css/ -r --output-style compressed",
+    "xs": "node-sass -w scss/xs.scss -o css/ -r --output-style compressed"
   },
   "keywords": [],
   "author": "",

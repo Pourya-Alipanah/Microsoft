@@ -1,0 +1,179 @@
+nav{
+    z-index: 5 !important;
+    height: 54px;
+    font-size: 13px !important;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0 5% !important;
+    a.logo{
+        height: 100%;
+        width: 137px;
+        padding: 10px 6px 16px 10px;
+        margin-top: 1px;
+        margin-right: 3px;
+        outline-offset: -2px;
+        >img{
+            width: 108px;
+            margin-top: -3px;
+        }
+    }
+    ul{
+        li.nav-item{
+            padding-right: 4px !important;
+            &:hover{
+                >a{
+                    text-decoration: underline;
+                    text-decoration-thickness:1.6px;
+                    text-underline-offset: 5px;
+                }
+            }
+        }
+    }
+    div.right{
+        >form{
+            div.input-g{
+                input{
+                    width: 70px;
+                    height: 34px;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    font-size: 13px;
+                    padding: 12px 0px 12px 70px;
+                    -webkit-transition: width 0.4s ease-in-out;
+                    transition: width 0.4s ease-in-out;
+                    border: unset;
+                    cursor: pointer;
+                    &:focus{
+                        width: 100%;
+                        cursor: text;
+                    }
+                }
+                label{
+                    left: 15px;
+                    cursor: pointer;
+                    >img{
+                        width: 16px;
+                        height: 18px;
+                        transform: rotateZ(90deg);
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                        text-decoration-thickness:1.6px;
+                        text-underline-offset: 5px;
+                    }
+                }
+            }
+        }
+        div.cart{
+            >a{
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-thickness:1.6px;
+                    text-underline-offset: 5px;
+                }
+                >img{
+                    width: 16px;
+                }
+            }
+        }
+        div.signin{
+            >a{
+                >img{
+                    width: 23px;
+                }
+            }
+        }
+        div.mdrop{
+            max-width: 1230px;
+            // width: 1230px;
+            min-width: 1000px;
+            background-color: #f2f2f2;
+            font-size: 13px !important;
+            left: unset !important;
+            right: -240px !important;
+            top: 150% !important;
+            border-bottom-color:#000000 ;
+            box-sizing: border-box !important;
+            >div.cont>div{
+                width: 195px;
+                a{
+                    &:hover{
+                        text-decoration: underline !important;
+                        text-decoration-thickness:1.6px !important;
+                        text-underline-offset: 5px !important;
+                    }
+                }
+            }
+            span{
+                cursor: default;
+            }
+            div.foot{
+                height: 38px;
+                background-color: #e6e6e6;
+                width: 100% !important;
+                a{
+                    color: #000000 !important;
+                    font-size: 13px !important;
+                }
+            }
+        }
+    }
+}
+main{
+    >div.wrapper{
+        >div.carousell{
+            min-height: 474px !important;
+            max-height: 480px !important;
+            div.carousel , div.carousel-inner , div.carousel-item{
+                min-height: 474px !important;
+                max-height: 480px !important;
+                >img{
+                    min-height: 474px !important;
+                    object-fit: cover !important;
+                    object-position: center !important;
+                }
+            }
+            div.carousel-caption{
+                bottom: unset !important;
+                top: 50% !important;
+                left: 140px !important;
+                transform: translateY(-50%) !important;
+                line-height: 1.5 !important;
+                >h1{
+                    font-weight: 600 !important;
+                }
+                >p{
+                    max-width: 474px !important;
+                }
+            }
+            div.caption2{
+                max-width: 450px !important;
+                max-height: 316px;
+                padding: 48px !important;
+                left: 90px !important;
+                >h2{
+                    font-weight: 600 !important;
+                }
+            }
+        }
+        >div.firstCards , div.businessCards{
+            padding: 0 5% !important;
+            div.card{
+                max-width: 25% !important;
+                cursor: pointer !important;
+                h4{
+                    font-size: 21px !important;
+                }
+            }
+        }
+        >div.gamePass{
+            padding: 0 5% !important;
+            div.card{
+                width: 28% !important;
+                left: 10% !important;
+                background-color: transparent;
+            }
+        }
+    }
+}
