@@ -816,6 +816,8 @@
             padding: 0 !important;
         }
         button.navbar-toggler{
+            border: unset !important;
+            padding: 4px 2px !important;
             @media screen and (max-width:304px) {
                 padding: 0 !important;
             }

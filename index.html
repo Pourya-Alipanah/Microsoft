@@ -12,6 +12,8 @@
 <body>
     <!-- Start Project @ Pourya-Alipanah -->
     
+    <!-- Start navbar -->
+    
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid p-0 h-100">
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -31,10 +33,45 @@
             <div class="cart2 mx-2 mx-sm-3 d-lg-none d-block" data-bs-toggle="tooltip" data-bs-placement="bottom" title="0 items in shopping cart">
                 <a class="nav-link d-flex flex-row gap-1" href="#"><span class="d-none d-xl-inline-block">Cart</span><img src="./icon/menu/cart-shopping.svg" alt="cart"></a>
             </div>
-            <div class="signin2 mx-2 mx-sm-3 d-lg-none d-block">
+
+            <!--  Modal trigger button  -->
+            <div type="button" class="signin2 mx-2 mx-sm-3 d-lg-none d-block" data-bs-toggle="modal" data-bs-target="#signin">
                 <a class="nav-link d-flex flex-row gap-2" href="#"><span class="d-none d-xl-inline-block">Sign in</span><img src="./icon/menu/user-plus.svg" alt="signin"></a>
             </div>
-
+            
+            <!-- Modal Body-->
+            <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitleId">Sign in</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form action="#" method="get" class="was-validated">
+                                    <div class="mb-3 form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                                        <div class="invalid-feedback">Required</div>
+                                        <div class="valid-feedback">Wellcome</div>
+                                        <label for="email" class="form-label">Enter your Email to Signin:</label>
+                                    </div>
+                                    <div class="mb-3 form-floating">
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                        <label for="pwd" class="form-label">Password:</label>
+                                    </div>
+                                    <div class="mt-2">Have not account? <a href="#" class="text-decoration-none btn-link">SignUp</a></div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav d-none mt-2 mt-lg-0 d-lg-flex">
                     <li class="nav-item">
@@ -300,16 +337,67 @@
                     <div class="cart mx-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="0 items in shopping cart">
                         <a class="nav-link d-flex flex-row gap-1" href="#"><span class="d-none d-xl-inline-block">Cart</span><img src="./icon/menu/cart-shopping.svg" alt="cart"></a>
                     </div>
-                    <div class="signin mx-2">
+                    <div type="button" class="signin mx-2" data-bs-toggle="modal" data-bs-target="#signin2">
                         <a class="nav-link d-flex flex-row gap-2" href="#"><span class="d-none d-xl-inline-block">Sign in</span><img src="./icon/menu/user-plus.svg" alt="signin"></a>
+                    </div>
+                    
+                    <!-- Modal Body-->
+                    <div class="modal fade" id="signin2" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                    <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">Sign in</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <form action="#" method="get" class="was-validated">
+                                            <div class="mb-3 form-floating">
+                                                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                                                <div class="invalid-feedback">Required</div>
+                                                <div class="valid-feedback">Wellcome</div>
+                                                <label for="email" class="form-label">Enter your Email to Signin:</label>
+                                            </div>
+                                            <div class="mb-3 form-floating">
+                                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                                <label for="pwd" class="form-label">Password:</label>
+                                            </div>
+                                            <div class="mt-2">Have not account? <a href="#" class="text-decoration-none btn-link">SignUp</a></div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Sign In</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
     
+    <!-- End navbar -->
+
+    <!-- Start main -->
+
+    <main>
+        <div class="wrapper">
+            
+        </div>
+    </main>
+    
+    <!-- End main -->
+
+    <!-- Start Footer -->
+
+    <footer></footer>
+
+    <!-- End Footer -->
 
     <!-- add script tags -->
+
     <script src="./js/main.js"></script>
     <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -318,6 +406,7 @@
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
     </script>
+    
     <!-- End Project -->
 </body>
 </html>
