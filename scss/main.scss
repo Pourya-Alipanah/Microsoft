@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 @media screen and (min-width:1400px) {
+    .modal-backdrop{
+        z-index: 4 !important;
+    }
     nav{
-        z-index: 9999 !important;
+        z-index: 5 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -159,8 +162,11 @@
     }
 }
 @media screen and (min-width:1200px) and (max-width:1400px){
+    .modal-backdrop{
+        z-index: 4 !important;
+    }
     nav{
-        z-index: 9999 !important;
+        z-index: 5 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -322,8 +328,11 @@
     }
 }
 @media screen and (min-width:992px) and (max-width:1200px){
+    .modal-backdrop{
+        z-index: 4 !important;
+    }
     nav{
-        z-index: 9999 !important;
+        z-index: 5 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -501,8 +510,11 @@
     }
 }
 @media screen and (min-width:768px) and (max-width:992px){
+    .modal-backdrop{
+        z-index: 4 !important;
+    }
     nav{
-        z-index: 9999 !important;
+        z-index: 5 !important;;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -754,8 +766,11 @@
     }
 }
 @media screen and (min-width:576px) and (max-width:768px){
+    .modal-backdrop{
+        z-index: 4 !important;
+    }
     nav{
-        z-index: 9999 !important;
+        z-index: 5 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -1007,8 +1022,11 @@
     }
 }
 @media screen and (max-width:576px){
+    .modal-backdrop{
+        z-index: 4 !important;
+    }
     nav{
-        z-index: 9999 !important;
+        z-index: 5 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
