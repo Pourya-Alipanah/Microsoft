@@ -5,6 +5,7 @@
 }
 @media screen and (min-width:1400px) {
     nav{
+        z-index: 9999 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -159,6 +160,7 @@
 }
 @media screen and (min-width:1200px) and (max-width:1400px){
     nav{
+        z-index: 9999 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -321,6 +323,7 @@
 }
 @media screen and (min-width:992px) and (max-width:1200px){
     nav{
+        z-index: 9999 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -499,6 +502,7 @@
 }
 @media screen and (min-width:768px) and (max-width:992px){
     nav{
+        z-index: 9999 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -751,6 +755,7 @@
 }
 @media screen and (min-width:576px) and (max-width:768px){
     nav{
+        z-index: 9999 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
@@ -1003,6 +1008,7 @@
 }
 @media screen and (max-width:576px){
     nav{
+        z-index: 9999 !important;
         height: 54px;
         font-size: 13px !important;
         margin-bottom: 2px;
