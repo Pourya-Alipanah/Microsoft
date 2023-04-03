@@ -337,6 +337,22 @@ main{
                     font-size: 24px !important;
                 }
             }
+            div.caption2{
+                max-height: 280px !important;
+            }
+        }
+        >div.follow{
+            padding: 0 0.75rem !important;
+            img{
+                width: 32px !important;
+                height: 32px !important;
+                cursor: pointer;
+            }
+        }
+        >div.backToTop{
+            a{
+                width: 100% !important;
+            }
         }
     }
 }
