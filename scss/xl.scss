@@ -175,5 +175,28 @@ main{
                 background-color: transparent;
             }
         }
+        >div.carousell2{
+            div.carousel-caption{
+                bottom: unset !important;
+                top: 50% !important;
+                left: 110px !important;
+                transform: translateY(-50%) !important;
+                line-height: 1.5 !important;
+                >h2{
+                    font-size: 29px;
+                    font-weight: 600 !important;
+                    max-width: 354px !important;
+                    text-align: left !important;
+                }
+                >p{
+                    max-width: 334px !important;
+                }
+            }
+            div.caption2{
+                max-width: 570px !important;
+                max-height: 316px;
+                padding: 48px !important;
+            }
+        }
     }
 }

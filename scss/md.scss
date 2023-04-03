@@ -260,7 +260,11 @@ main{
         }
         >div.gamePass{
             padding: 0 0.75rem !important;
-            height: 850px !important;
+            min-height: 680px;
+            max-height: 800px !important;
+            @media screen and (max-width:850px){
+                min-height: 600px;
+            }
             div.card2{
                 padding: 48px !important;
                 width: 98% !important;
@@ -268,6 +272,47 @@ main{
                 left: 50% !important;
                 transform: translateX(-50%) !important;
                 box-shadow: 0 .1875rem .4375rem 0 rgba(0,0,0,.13),0 .0625rem .125rem 0 rgba(0,0,0,.11) !important;
+            }
+        }
+        >div.carousell2{
+            height: 595px !important;
+            div.carousel , div.carousel-inner , div.carousel-item{
+                height: 595px !important;
+                >img{
+                    min-height: 474px !important;
+                    object-fit: cover !important;
+                    object-position: right !important;
+                }
+            }
+            div.carousel-inner{
+                overflow: visible !important;
+            }
+            div.carousel-caption{
+                bottom: 0 !important;
+                left: 50% !important;
+                transform: translateX(-50%);
+                line-height: 1.5 !important;
+                box-shadow: 0 .1875rem .4375rem 0 rgba(0,0,0,.13),0 .0625rem .125rem 0 rgba(0,0,0,.11) !important;
+                border-radius: unset !important;
+                background-color: #ffffff !important;
+                width: 98% !important;
+                padding: 48px !important;
+                max-height: 224px !important;
+                z-index: 4 !important;
+                >h1{
+                    color: #000000 !important;
+                    font-weight: 600 !important;
+                    font-size: 24px !important;
+                }
+                >p{
+                    color: #000000 !important;
+                    width: 100% !important;
+                }
+                >h2{
+                    color: #000000 !important;
+                    font-weight: 600 !important;
+                    font-size: 24px !important;
+                }
             }
         }
     }
