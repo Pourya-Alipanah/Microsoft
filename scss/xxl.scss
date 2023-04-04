@@ -200,3 +200,47 @@ main{
         }
     }
 }
+footer{
+    padding: 0 5% !important;
+    font-size: 11px;
+    color: #616161 !important;
+    background-color: #f2f2f2 !important;
+    min-width: 280px !important;
+    box-sizing: border-box !important;
+    a{
+        color: #616161 !important;
+        &:hover{
+            color: rgba(0,0,0,.9) !important;
+            text-decoration: underline !important;
+        }
+    }
+    div.cont{
+        div.ul{
+            width: 16.6666666667% !important;
+            padding: 0 12px !important;
+            span{
+                font-size: 15px;
+                padding-top: 36px;
+            }
+        }
+        div:first-of-type{
+            padding-left: unset !important;
+        }
+    }
+    div.foot{
+        max-width: calc(1600px + 10%) !important;
+        padding: 30px 0 16px 0   !important;
+        span{
+            img{
+                width: 20px !important;
+                height: 24px !important;
+                margin-right: 10px !important;
+            }
+        }
+        div.list{
+            a{
+                padding: 0 24px 4px 0 !important;
+            }
+        }
+    }
+}
